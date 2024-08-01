@@ -4,50 +4,96 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {}
+body {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
 
 header {
+width: 1440px;
+height: 70px;
+padding: 23px 0px;
+background: #2965f1
     /* Стили для хедера */
 }
 
 header span {
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #fff;
+
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+width: 1440px;
+height: 1024px;
     /* Стили для первой секции */
 }
 
 .main-title {
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 48px;
+color: #303030;
+padding: 60px 0px 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    width: 715px;
+    height: 508px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+width: 1440px;
+height: 883px;
     /* Стили для второй секции */
 }
 
 select {
+border: 1px solid rgba(48, 48, 48, 0.3);
+border-radius: 5px;
+width: 150px;
+height: 36px;
+font-weight: 400;
+font-size: 16px;
+color: #303030;
+background: url(./images/Vector\ \(1\).svg) no-repeat right 15px top 50%;
+appearance: none;
     /* Стили для выпадающего списка */
 }
 
 .section-title {
+font-weight: 700;
+font-size: 24px;
+color: #303030;
+margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+    list-style-image: url(./images/Vector\ \(2\).svg);
+    padding: 0 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+padding: 0 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
