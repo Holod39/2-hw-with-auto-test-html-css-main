@@ -54,7 +54,7 @@ color: #303030;
 }
 
 .main-image {
-    width: 715px;
+    max-width: 715px;
     height: 508px;
     /* Стили для изображения в первой секции */
 }
@@ -63,6 +63,7 @@ color: #303030;
 .about-section {
 width: 1440px;
 height: 883px;
+padding: 100px 0px;
     /* Стили для второй секции */
 }
 
@@ -89,10 +90,11 @@ margin-bottom: 25px;
 
 .frameworks-list {
 list-style-image: url(./images/Vector\ \(2\).svg);
-padding: 0 20px;
+padding:0 20px;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
+margin-left: 5px;
 
     /* Стили для маркированного списка во второй секции */
 }
@@ -106,33 +108,78 @@ padding: 0 20px;
 }
 
 .label {
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #303030;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+border: 1px solid rgba(48, 48, 48, 0.3);
+border-radius: 5px;
+width: 330px;
+height: 36px;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: rgba(48, 48, 48, 0.2);
+padding: 0px 20px;
+/*text-transform: uppercase;
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+border-radius: 5px;
+width: 125px;
+height: 36px;
+background: #2965f1;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 14px;
+color: #fff;
+padding: 0px 9px;
+border: none;
     /* Стили для кнопки */
 }
 
 .line {
+border: 1px solid rgba(48, 48, 48, 0.3);
+width: 1440px;
+height: 0px;
+margin-top: 60px;
+margin-bottom: 60px;
     /* Стили для линии */
 }
 
 table {
+width: 300px;
+height: 196px;
+border: 1px solid #95a1bb;
+border-collapse: collapse;
     /* Стили для таблицы */
 }
 
 th, td {
+    border: 1px solid #95A1BB;
+    width: 240px;
+    padding: 15px 0;
+    
     /* Стили для ячеек таблицы */
 }
 
 footer {
+width: 1440px;
+height: 70px;
+background: rgba(163, 167, 255, 0.3);
     /* Стили для футера */
 }
 
 .footer-link {
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: #2965f1;
+padding: 26px 0px;
     /* Стили для футера */
 }
